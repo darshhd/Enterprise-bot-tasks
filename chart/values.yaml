@@ -1,12 +1,12 @@
 replicaCount: 2
 
 image:
-  repository: darsh-http-service
+  repository: demo-service
   tag: "1.0.0"
   pullPolicy: IfNotPresent
 
 config:
-  appName: darsh-http-app
+  appName: demo-app
   version: "1.0.0"
 
 service:
@@ -17,7 +17,7 @@ service:
 ingress:
   enabled: true
   className: ""
-  host: darsh.local
+  host: demo.local
   annotations: {}
 
 resources:

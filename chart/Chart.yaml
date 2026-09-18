@@ -1,5 +1,5 @@
 apiVersion: v2
-name: darsh-http-service
+name: demo-service
 description: A small HTTP service exposing / and /healthz
 type: application
 version: 0.1.0

@@ -1,18 +1,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ include "darsh-http-service.fullname" . }}
+  name: {{ include "demo-service.fullname" . }}
   labels:
-    {{- include "darsh-http-service.labels" . | nindent 4 }}
+    {{- include "demo-service.labels" . | nindent 4 }}
 spec:
   replicas: {{ .Values.replicaCount }}
   selector:
     matchLabels:
-      {{- include "darsh-http-service.selectorLabels" . | nindent 6 }}
+      {{- include "demo-service.selectorLabels" . | nindent 6 }}
   template:
     metadata:
       labels:
-        {{- include "darsh-http-service.selectorLabels" . | nindent 8 }}
+        {{- include "demo-service.selectorLabels" . | nindent 8 }}
     spec:
       containers:
         - name: {{ .Chart.Name }}
