@@ -21,6 +21,7 @@ backend:
     APP_MODE: "api"
     APP_NAME: "backend"
     VERSION: "2.0.0"
+    PORT: "8080"
   resources:
     requests:
       cpu: "50m"
@@ -35,7 +36,8 @@ gateway:
     APP_MODE: "gateway"
     APP_NAME: "gateway"
     VERSION: "2.0.0"
-    BACKEND_URL: "http://backend:8080"     #CHanged from http://backend.default.svc:8080 which was hardcoded to http://backend:8080
+    BACKEND_URL: "http://backend.debug-lab.svc:8080"    #"http://backend.debug-lab.svc:8080"
+    PORT: "8080"
   resources:
     requests:
       cpu: "50m"
@@ -47,9 +49,11 @@ gateway:
 worker:
   replicas: 1
   env:
+    CACHE_DIR: "/tmp"
     APP_MODE: "worker"
     APP_NAME: "worker"
     VERSION: "2.0.0"
+    PORT: "8080"
   resources:
     requests:
       cpu: "50m"
@@ -65,6 +69,7 @@ reporter:
     APP_MODE: "reporter"
     APP_NAME: "reporter"
     VERSION: "2.0.0"
+    PORT: "8080"
   resources:
     requests:
       cpu: "50m"
@@ -79,12 +84,13 @@ metrics:
     APP_MODE: "api"
     APP_NAME: "metrics"
     VERSION: "2.0.0"
+    PORT: "8080"
   resources:
     requests:
-      cpu: "50m"                           # Changed from 2 to 50m
+      cpu: "50m"
       memory: "64Mi"
     limits:
-      cpu: "200m"                           # Changed from 4 to 200m
+      cpu: "200m"
       memory: "128Mi"
 
 migrate:
