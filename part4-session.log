@@ -179,4 +179,47 @@ Your branch is up to date with 'origin/master'.
 
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to dis
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   lab/FINDINGS.md[m
+	[31mmodified:   lab/broken-chart/templates/backend.yaml[m
+	[31mmodified:   lab/broken-chart/templates/gateway.yaml[m
+	[31mmodified:   lab/broken-chart/templates/metrics.yaml[m
+	[31mmodified:   lab/broken-chart/templates/migrate-job.yaml[m
+	[31mmodified:   lab/broken-chart/templates/rbac.yaml[m
+	[31mmodified:   lab/broken-chart/templates/reporter.yaml[m
+	[31mmodified:   lab/broken-chart/templates/worker.yaml[m
+	[31mmodified:   lab/broken-chart/values.yaml[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mpart4-session.log[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]666;vte.shell.postexec=0\]7;file://darsh-pc/home/darsh/Downloads/Enterprise-bot-tasks\]0;darsh@darsh-pc:~/Downloads/Enterprise-bot-tasks\]666;vte.shell.precmd!\[?2004h]0;darsh@darsh-pc: ~/Downloads/Enterprise-bot-tasks[01;32mdarsh@darsh-pc[00m:[01;34m~/Downloads/Enterprise-bot-tasks[00m$ git add .
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://darsh-pc/home/darsh/Downloads/Enterprise-bot-tasks\]0;darsh@darsh-pc:~/Downloads/Enterprise-bot-tasks\]666;vte.shell.precmd!\[?2004h]0;darsh@darsh-pc: ~/Downloads/Enterprise-bot-tasks[01;32mdarsh@darsh-pc[00m:[01;34m~/Downloads/Enterprise-bot-tasks[00m$ fit status
+[?2004l]133;C\]666;vte.shell.preexec!\Command 'fit' not found, but there are 16 similar ones.
+]666;vte.shell.postexec=127\]7;file://darsh-pc/home/darsh/Downloads/Enterprise-bot-tasks\]0;darsh@darsh-pc:~/Downloads/Enterprise-bot-tasks\]666;vte.shell.precmd!\[?2004h]0;darsh@darsh-pc: ~/Downloads/Enterprise-bot-tasks[01;32mdarsh@darsh-pc[00m:[01;34m~/Downloads/Enterprise-bot-tasks[00m$ gti[K[Kit status
+[?2004l]133;C\]666;vte.shell.preexec!\On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mmodified:   lab/FINDINGS.md[m
+	[32mmodified:   lab/broken-chart/templates/backend.yaml[m
+	[32mmodified:   lab/broken-chart/templates/gateway.yaml[m
+	[32mmodified:   lab/broken-chart/templates/metrics.yaml[m
+	[32mmodified:   lab/broken-chart/templates/migrate-job.yaml[m
+	[32mmodified:   lab/broken-chart/templates/rbac.yaml[m
+	[32mmodified:   lab/broken-chart/templates/reporter.yaml[m
+	[32mmodified:   lab/broken-chart/templates/worker.yaml[m
+	[32mmodified:   lab/broken-chart/values.yaml[m
+	[32mnew file:   part4-session.log[m
+
+]666;vte.shell.postexec=0\]7;file://darsh-pc/home/darsh/Downloads/Enterprise-bot-tasks\]0;darsh@darsh-pc:~/Downloads/Enterprise-bot-tasks\]666;vte.shell.precmd!\[?2004h]0;darsh@darsh-pc: ~/Downloads/Enterprise-bot-tasks[01;32mdarsh@darsh-pc[00m:[01;34m~/Downloads/Enterprise-bot-tasks[00m$ git push -u origin master
+[?2004l]133;C\]666;vte.shell.preexec!\branch 'master' set up to track 'origin/master'.
+Everything up-to-date
+]666;vte.shell.postexec=0\]7;file://darsh-pc/home/darsh/Downloads/Enterprise-bot-tasks\]0;darsh@darsh-pc:~/Downloads/Enterprise-bot-tasks\]666;vte.shell.precmd!\[?2004h]0;darsh@darsh-pc: ~/Downloads/Enterprise-bot-tasks[01;32mdarsh@darsh-pc[00m:[01;34m~/Downloads/Enterprise-bot-tasks[00m$ git commit -m ""T"a"s"k" "5":" "F"i"x"i"n"g" "b"r"o"k"e"n" "c"l"u"s"t"e"r"
+[?2004l]133;C\]666;vte.shell.preexec!\[master 67fede2] Task 5: Fixing broken cluster
+ 10 files changed, 230 insertions(+), 12 deletions(-)
+ create mode 100644 part4-session.log
+]666;vte.shell.postexec=0\]7;file://darsh-pc/home/darsh/Downloads/Enterprise-bot-tasks\]0;darsh@darsh-pc:~/Downloads/Enterprise-bot-tasks\]666;vte.shell.precmd!\[?2004h]0;darsh@darsh-pc: ~/Downloads/Enterprise-bot-tasks[01;32mdarsh@darsh-pc[00m:[01;34m~/Downloads/Enterprise-bot-tasks[00m$ git commit -m "Task 5: Fixing broken cluster"[20Ppush -u origin master
