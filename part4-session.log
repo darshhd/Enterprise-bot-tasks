@@ -222,4 +222,69 @@ Everything up-to-date
 [?2004l]133;C\]666;vte.shell.preexec!\[master 67fede2] Task 5: Fixing broken cluster
  10 files changed, 230 insertions(+), 12 deletions(-)
  create mode 100644 part4-session.log
-]666;vte.shell.postexec=0\]7;file://darsh-pc/home/darsh/Downloads/Enterprise-bot-tasks\]0;darsh@darsh-pc:~/Downloads/Enterprise-bot-tasks\]666;vte.shell.precmd!\[?2004h]0;darsh@darsh-pc: ~/Downloads/Enterprise-bot-tasks[01;32mdarsh@darsh-pc[00m:[01;34m~/Downloads/Enterprise-bot-tasks[00m$ git commit -m "Task 5: Fixing broken cluster"[20Ppush -u origin master
+]666;vte.shell.postexec=0\]7;file://darsh-pc/home/darsh/Downloads/Enterprise-bot-tasks\]0;darsh@darsh-pc:~/Downloads/Enterprise-bot-tasks\]666;vte.shell.precmd!\[?2004h]0;darsh@darsh-pc: ~/Downloads/Enterprise-bot-tasks[01;32mdarsh@darsh-pc[00m:[01;34m~/Downloads/Enterprise-bot-tasks[00m$ git commit -m "Task 5: Fixing broken cluster"[20Ppush -u origin masterstatus[Kpush -u origin master
+[?2004l]133;C\]666;vte.shell.preexec!\Enumerating objects: 28, done.
+Counting objects:   3% (1/28)Counting objects:   7% (2/28)Counting objects:  10% (3/28)Counting objects:  14% (4/28)Counting objects:  17% (5/28)Counting objects:  21% (6/28)Counting objects:  25% (7/28)Counting objects:  28% (8/28)Counting objects:  32% (9/28)Counting objects:  35% (10/28)Counting objects:  39% (11/28)Counting objects:  42% (12/28)Counting objects:  46% (13/28)Counting objects:  50% (14/28)Counting objects:  53% (15/28)Counting objects:  57% (16/28)Counting objects:  60% (17/28)Counting objects:  64% (18/28)Counting objects:  67% (19/28)Counting objects:  71% (20/28)Counting objects:  75% (21/28)Counting objects:  78% (22/28)Counting objects:  82% (23/28)Counting objects:  85% (24/28)Counting objects:  89% (25/28)Counting objects:  92% (26/28)Counting objects:  96% (27/28)Counting objects: 100% (28/28)Counting objects: 100% (28/28), done.
+Delta compression using up to 16 threads
+Compressing objects:   6% (1/15)Compressing objects:  13% (2/15)Compressing objects:  20% (3/15)Compressing objects:  26% (4/15)Compressing objects:  33% (5/15)Compressing objects:  40% (6/15)Compressing objects:  46% (7/15)Compressing objects:  53% (8/15)Compressing objects:  60% (9/15)Compressing objects:  66% (10/15)Compressing objects:  73% (11/15)Compressing objects:  80% (12/15)Compressing objects:  86% (13/15)Compressing objects:  93% (14/15)Compressing objects: 100% (15/15)Compressing objects: 100% (15/15), done.
+Writing objects:   6% (1/15)Writing objects:  13% (2/15)Writing objects:  20% (3/15)Writing objects:  26% (4/15)Writing objects:  33% (5/15)Writing objects:  40% (6/15)Writing objects:  46% (7/15)Writing objects:  53% (8/15)Writing objects:  60% (9/15)Writing objects:  66% (10/15)Writing objects:  73% (11/15)Writing objects:  80% (12/15)Writing objects:  86% (13/15)Writing objects:  93% (14/15)Writing objects: 100% (15/15)Writing objects: 100% (15/15), 6.15 KiB | 3.07 MiB/s, done.
+Total 15 (delta 8), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas:   0% (0/8)[Kremote: Resolving deltas:  12% (1/8)[Kremote: Resolving deltas:  25% (2/8)[Kremote: Resolving deltas:  37% (3/8)[Kremote: Resolving deltas:  50% (4/8)[Kremote: Resolving deltas:  62% (5/8)[Kremote: Resolving deltas:  75% (6/8)[Kremote: Resolving deltas:  87% (7/8)[Kremote: Resolving deltas: 100% (8/8)[Kremote: Resolving deltas: 100% (8/8), completed with 8 local objects.[K
+To github.com:darshhd/Enterprise-bot-tasks.git
+   5f161be..67fede2  master -> master
+branch 'master' set up to track 'origin/master'.
+]666;vte.shell.postexec=0\]7;file://darsh-pc/home/darsh/Downloads/Enterprise-bot-tasks\]0;darsh@darsh-pc:~/Downloads/Enterprise-bot-tasks\]666;vte.shell.precmd!\[?2004h]0;darsh@darsh-pc: ~/Downloads/Enterprise-bot-tasks[01;32mdarsh@darsh-pc[00m:[01;34m~/Downloads/Enterprise-bot-tasks[00m$ git push -u origin mastercommit -m "Task 5: Fixing broken cluster"[1P[1@4
+[?2004l]133;C\]666;vte.shell.preexec!\On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   part4-session.log[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]666;vte.shell.postexec=1\]7;file://darsh-pc/home/darsh/Downloads/Enterprise-bot-tasks\]0;darsh@darsh-pc:~/Downloads/Enterprise-bot-tasks\]666;vte.shell.precmd!\[?2004h]0;darsh@darsh-pc: ~/Downloads/Enterprise-bot-tasks[01;32mdarsh@darsh-pc[00m:[01;34m~/Downloads/Enterprise-bot-tasks[00m$ git add .
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://darsh-pc/home/darsh/Downloads/Enterprise-bot-tasks\]0;darsh@darsh-pc:~/Downloads/Enterprise-bot-tasks\]666;vte.shell.precmd!\[?2004h]0;darsh@darsh-pc: ~/Downloads/Enterprise-bot-tasks[01;32mdarsh@darsh-pc[00m:[01;34m~/Downloads/Enterprise-bot-tasks[00m$ sh[Ki[K[Kgit sh[Ktatus
+[?2004l]133;C\]666;vte.shell.preexec!\On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mmodified:   part4-session.log[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   part4-session.log[m
+
+]666;vte.shell.postexec=0\]7;file://darsh-pc/home/darsh/Downloads/Enterprise-bot-tasks\]0;darsh@darsh-pc:~/Downloads/Enterprise-bot-tasks\]666;vte.shell.precmd!\[?2004h]0;darsh@darsh-pc: ~/Downloads/Enterprise-bot-tasks[01;32mdarsh@darsh-pc[00m:[01;34m~/Downloads/Enterprise-bot-tasks[00m$ git status[1Padd .commit -m "Task 4: Fixing broken cluster"
+[?2004l]133;C\]666;vte.shell.preexec!\[master 0fe9de9] Task 4: Fixing broken cluster
+ 1 file changed, 44 insertions(+), 1 deletion(-)
+]666;vte.shell.postexec=0\]7;file://darsh-pc/home/darsh/Downloads/Enterprise-bot-tasks\]0;darsh@darsh-pc:~/Downloads/Enterprise-bot-tasks\]666;vte.shell.precmd!\[?2004h]0;darsh@darsh-pc: ~/Downloads/Enterprise-bot-tasks[01;32mdarsh@darsh-pc[00m:[01;34m~/Downloads/Enterprise-bot-tasks[00m$ git commit -m "Task 4: Fixing broken cluster"status[K[1Padd .commit -m "Task 4: Fixing broken cluster"[20Ppush -u origin master
+[?2004l]133;C\]666;vte.shell.preexec!\Enumerating objects: 5, done.
+Counting objects:  20% (1/5)Counting objects:  40% (2/5)Counting objects:  60% (3/5)Counting objects:  80% (4/5)Counting objects: 100% (5/5)Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 852 bytes | 852.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To github.com:darshhd/Enterprise-bot-tasks.git
+   67fede2..0fe9de9  master -> master
+branch 'master' set up to track 'origin/master'.
+]666;vte.shell.postexec=0\]7;file://darsh-pc/home/darsh/Downloads/Enterprise-bot-tasks\]0;darsh@darsh-pc:~/Downloads/Enterprise-bot-tasks\]666;vte.shell.precmd!\[?2004h]0;darsh@darsh-pc: ~/Downloads/Enterprise-bot-tasks[01;32mdarsh@darsh-pc[00m:[01;34m~/Downloads/Enterprise-bot-tasks[00m$ [H[2J]0;darsh@darsh-pc: ~/Downloads/Enterprise-bot-tasks[01;32mdarsh@darsh-pc[00m:[01;34m~/Downloads/Enterprise-bot-tasks[00m$ ls
+[?2004l]133;C\]666;vte.shell.preexec!\ANSWERS.md  [0m[01;34mchart[0m  [01;34mlab[0m  part4-session.log  [01;34mservice[0m  [01;32msetup.sh[0m
+]666;vte.shell.postexec=0\]7;file://darsh-pc/home/darsh/Downloads/Enterprise-bot-tasks\]0;darsh@darsh-pc:~/Downloads/Enterprise-bot-tasks\]666;vte.shell.precmd!\[?2004h]0;darsh@darsh-pc: ~/Downloads/Enterprise-bot-tasks[01;32mdarsh@darsh-pc[00m:[01;34m~/Downloads/Enterprise-bot-tasks[00m$ git status
+[?2004l]133;C\]666;vte.shell.preexec!\On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   part4-session.log[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mANSWERS.md[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]666;vte.shell.postexec=0\]7;file://darsh-pc/ho
